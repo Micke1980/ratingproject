@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.overpass-custom {
+  font-family: "Overpass", sans-serif; 
+  font-optical-sizing: auto;
+  font-weight: 400;  
+  font-style: normal; 
+  color:hsl(0, 0%, 100%)
+}
+
+.card-container {
+  background-image: url('../src/assets/sky.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: hsl(216, 12%, 8%);
+  background-blend-mode: normal;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgroundcontainer {
+  background-color: hsl(216, 12%, 8%);
+  height: 90vh;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thankyoucontainer {
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  width: 300px;
+  background-color: hsl(216, 27%, 14%);  
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.rating {
+  background-color: hsl(217, 22%, 19%); 
+  color: hsl(25, 97%, 53%); 
+  border-radius: 20px; 
+  padding: 10px ;
+  font-size: 14px; 
+}
+
+.thankyou {
+  color:hsl(0, 0%, 100%);
+  margin-bottom: 5px;
+}
+
+.text {
+  margin-top: 5px;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%); 
+}
+
+img {
+  margin-right: 240px;
+}
+
+.rating-button {
+  width: 50px;
+  height: 50px;
+  background-color: hsl(217, 22%, 19%); 
+  border: none;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: hsl(216, 8%, 68%); 
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.rating-button.selected {
+  background-color: hsl(25, 97%, 53%); 
+  color: black;
+  font-weight: 700;
+}
+
+.rating-button.previous {
+  background-color: hsl(0, 0%, 100%); 
+  color: black; 
+  font-weight: 700;
+}
+
+.submit-button {
+  font-weight: 700;
+  background-color: hsl(25, 97%, 53%); 
+  color: hsl(0, 0%, 100%); 
+  padding: 10px 125px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: hsl(0, 0%, 100%); 
+  color: hsl(213, 19%, 18%); 
+}
+
+.star-icon {
+  background-color: hsl(217, 22%, 19%); 
+  padding: 8px;
+  border-radius: 50%;
+  width: 20px;
+}
+
+star-icon.selected {
+  background-color: hsl(25, 97%, 53%); 
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    background-image: none;
+  }
+}
