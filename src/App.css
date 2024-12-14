@@ -152,4 +152,14 @@ star-icon.selected {
   .card-container {
     background-image: none;
   }
+
+  .rating-button {
+    width: 45px;
+    height: 45px;
+  }
+
+  .submit-button {
+    padding: 10px 105px;
+  }
+  
 }
