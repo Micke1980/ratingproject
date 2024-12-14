@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+* {
+  font-family: "Overpass", sans-serif; 
+  font-optical-sizing: auto;
+  font-weight: 400;  
+  font-style: normal; 
+}
 
 html, body {
   height: 100%;
